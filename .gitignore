@@ -8,8 +8,7 @@ out/
 *.jar
 *.war
 *.ear
-.idea/
-.idea
+.idea/*
 .mvn/
 
 # =========================
