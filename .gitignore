@@ -1,0 +1,68 @@
+# =========================
+# Java / Build
+# =========================
+spring-mastering-labs/target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+.idea/
+.mvn/
+
+# =========================
+# Maven / Gradle
+# =========================
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================
+# Spring Boot
+# =========================
+logs/
+*.log
+spring.log
+
+# =========================
+# IDEs
+# =========================
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+.idea
+
+# =========================
+# Env / Secrets
+# =========================
+.env
+.env.*
+application-local.yml
+application-local.properties
+
+# =========================
+# Test / Runtime artifacts
+# =========================
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.swp
